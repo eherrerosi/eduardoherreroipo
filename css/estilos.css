@@ -1,0 +1,87 @@
+html{
+    background-color: gray;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo{
+    position: relative;
+}
+
+.titulo h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color:white;
+    letter-spacing: 3px;
+    
+    
+}
+
+.titulo img{
+    max-width: 100%;
+    height: auto;
+    opacity: 50%;
+}
+
+h2{
+    text-align: center;
+    
+}
+
+body{
+    margin: auto;
+    font-size: 16px;
+}
+
+p{
+    padding-left: 1cm;
+    padding-right: 1cm;
+}
+
+.caracteristicas ul li{
+    display: block;
+
+}
+
+header img{
+    width:100%;
+    
+}
+
+nav ul{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    font-size: 20px;
+    list-style: none;
+}
+
+img{
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+footer p{
+    text-align: center;
+}
+
+a{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.comprar button{
+    display: block;
+    margin: 0 auto;
+    
+
+}
